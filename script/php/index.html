@@ -1,0 +1,21 @@
+﻿<html>
+	<script type="text/javascript" src='../package/jquery-1.9.1.min.js'></script>
+	<body>
+		
+		<img id='getcode_num'/>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		$.ajax({
+			url:'function.php',
+			type:'post',
+			data:{ sql:"CreateImgCode",json:[]},
+			success:function(r){
+				$("#getcode_num").attr("src", '');
+				//var r = eval("(" + r + ")");
+				//$("#getcode_num").attr("src", 'img.php');
+			}
+		})
+	})
+</script>

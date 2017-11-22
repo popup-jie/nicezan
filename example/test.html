@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css" charset="utf-8" />
+    <script type="text/javascript" src="sc/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <!--<script type="text/javascript" src="http://www.1473.cn/uform.js"></script>-->
+</head>
+<body>
+    <!-- 
+    图片轮播 data-target 方法(必须要) data-delay 时间(数字 || 可不传) data-type 滚动类型(可不传) data-circle 圆点 (true|| false || 可不传) data-btn 左右按钮（true || false || 可不传）
+    滚动类型： L 图片向左边滚动
+               T 图片向上滚动
+               fade 图片渐变
+    -->
+    <div data-target="Droll" data-delay="1500" data-type="L" data-circle="true" data-btn="true">
+        <div>
+            <img src="img/modea_9.png" alt="Alternate Text" />
+            <img src="img/modea_9.png" alt="Alternate Text" />
+            <img src="img/modea_9.png" alt="Alternate Text" />
+            <img src="img/modea_9.png" alt="Alternate Text" />
+        </div>
+    </div>
+    <!--
+        下拉框 data-target 方法 data-color 下拉样式（4种颜色 || 可不传） 
+        默认 blue cyan green 可不传
+     -->
+    <div data-target="Dropmenu">
+        <div>
+            <button>
+                下拉菜单</button>
+            <!-- 下拉内容 -->
+            <ul>
+                <li>内容1</li>
+                <li>内容2</li>
+                <li>内容3</li>
+                <li>内容4</li>
+            </ul>
+        </div>
+    </div>
+    <!--
+        下拉框 data-target 方法 data-color 下拉样式（4种颜色 || 可不传） 
+        默认 blue cyan green 可不传
+     -->
+    <div data-target="DropmenuS">
+        <div>
+            <button>
+                请选择分类</button>
+            <!-- 下拉内容 -->
+            <ul>
+                <li>内容1</li>
+                <li>内容2</li>
+                <li>内容3</li>
+                <li>内容4</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 
+        无缝滚动 data-target 方法 data-type 方向( L || T || 可不传)
+     -->
+    <div class="Width" data-target="Wscroll">
+        <ul>
+            <li>
+                <img src="img/modea_9.png" /></li>
+            <li>
+                <img src="img/modea_9.png" /></li>
+            <li>
+                <img src="img/modea_9.png" /></li>
+            <li>
+                <img src="img/modea_9.png" /></li>
+        </ul>
+    </div>
+    <!-- 
+        无缝滚动 data-target 方法 上下滚动 文字类型
+     -->
+    <div class="Height" data-target="Wscroll" data-type="T">
+        <ul>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+            <li>祝福：XXX与ZZZ婚礼</li>
+        </ul>
+    </div>
+    <ul id="ss">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+    </ul>
+    <!-- 分页控件 
+        data-target 方法  Paging
+        data-btn 首页 。 尾页 || (true || false) 默认为false
+        data-pageid   分页数据ID 
+        data-pagenumer  每一页多少条数据 || 默认是10
+        data-count 每次显示多少页 || 默认是4
+    -->
+    <div data-target="Paging" data-btn="true" data-pageid="ss" data-pagenumber="5" data-count="4">
+    </div>
+</body>
+</html>
+<script src="sc/test.js" type="text/javascript" charset="utf-8"></script>

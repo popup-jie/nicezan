@@ -1,0 +1,80 @@
+clear { clear: both; }
+/*.Dropmenu { margin-left: 30px; width: 109px; background: #fff; }
+.DropmenuN { width: 120px; margin-top: 60px; }
+.Width { width: 1200px; overflow: hidden; height: 230px; margin-top: 30px; }
+.Height { width: 120px; overflow: hidden; height: 300px; background: red; margin-top: 30px; }
+*/
+.Droll { overflow: hidden !important; position: relative !important; }
+.Droll > div > img { float: left !important; }
+.Droll > .leftbutton, .Droll > .rightbutton { font-size: 28px !important; color: #fff; float: left; cursor: pointer; position: absolute; background: rgba(0,0,0,0.3); padding: 2px 5px; top: 0px; }
+.Droll > .leftbutton:hover, .Droll > .rightbutton:hover { background: rgba(0,0,0,0.7); }
+.Droll > .leftbutton { left: 0px; }
+.Droll > .rightbutton { right: 0px; }
+.Droll > .founder { position: absolute; height: 30px; bottom: 0px; }
+.Droll > .founder > div { background: rgba(0,0,0,0.3); width: 15px; height: 15px; border-radius: 15px; float: left; margin-left: 4px; cursor: pointer; }
+.Droll > .founder > div.active { background: #fff; }
+/*下拉框*/
+.Dropmenu > .Droptitle { color: #333; font-size: 14px; text-align: center; }
+.Dropmenu > .Droptitle > button { display: inline-block; padding: 9px 0px; margin-bottom: 0; font-size: 12px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; border: 1px solid #ddd; float: left; background: inherit; border-right: 1px solid #ddd; }
+.Dropmenu > .Droptitle > button:hover, .Dropmenu > .Droptitle > button:focus { background: rgba(0,0,0,0.1); outline: 0px; }
+.Dropmenu > .Droptitle > button:nth-child(1) { border-top-right-radius: 0; border-bottom-right-radius: 0; width: 75%; text-align: left; text-indent: 12px; }
+.Dropmenu > .Droptitle > button:nth-child(2) { cursor: pointer; border-top-left-radius: 0; border-bottom-left-radius: 0; border-left: 0px; width: 25%; cursor: pointer; }
+.Dropmenu > .Droptitle > ul { display: block; border: 1px solid #ddd; border-radius: 4px; border-top: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px; float: left; width: 98%; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175); position: absolute; z-index: 9999; background: #fff; }
+.Dropmenu > .Droptitle > ul > li { padding: 5px 0px; font-size: 13px; color: #333; text-align: left; text-indent: 12px; display: block !important; float: none; }
+.Dropmenu > .Droptitle > ul > li:hover { background: rgba(0,0,0,0.1); cursor: pointer; }
+.Dropmenu-primary > .Droptitle > button { background-color: #286090; border-color: #204d74; color: #fff; }
+.Dropmenu-primary > .Droptitle > button:hover, .Dropmenu-primary > .Droptitle > button:focus { color: #fff; background-color: #204d74; border-color: #122b40; }
+.Dropmenu-info > .Droptitle > button { background-color: #5bc0de; border-color: #46b8da; color: #fff; }
+.Dropmenu-info > .Droptitle > button:hover, .Dropmenu-info > .Droptitle > button:focus { color: #fff; background-color: #31b0d5; border-color: #269abc; }
+.Dropmenu-success > .Droptitle > button { background-color: #5cb85c; border-color: #4cae4c; color: #fff; }
+.Dropmenu-success > .Droptitle > button:hover, .Dropmenu-success > .Droptitle > button:focus { color: #fff; background-color: #449d44; border-color: #398439; }
+.Dropmenu-primary > .Droptitle > ul { border-color: #204d74; background-color: #286090; }
+.Dropmenu-primary > .Droptitle > ul > li { color: #fff; }
+.Dropmenu-primary > .Droptitle > ul > li:hover { background-color: #204d74; }
+.Dropmenu-info > .Droptitle > ul { border: #46b8da; background-color: #5bc0de; }
+.Dropmenu-info > .Droptitle > ul > li { color: #fff; }
+.Dropmenu-info > .Droptitle > ul > li:hover { background-color: #31b0d5; }
+.Dropmenu-success > .Droptitle > ul { border-color: #4cae4c; background-color: #5cb85c; }
+.Dropmenu-success > .Droptitle > ul > li { color: #fff; }
+.Dropmenu-success > .Droptitle > ul > li:hover { background-color: #449d44; }
+.DropmenuN > .Droptitle > button { color: #999; border: 1px solid #ccc; }
+.DropmenuN > .Droptitle > button:nth-child(1) { border-right: 0px; }
+.DropmenuN > .Droptitle > button:nth-child(1):hover { background: inherit; }
+.DropmenuN > .Droptitle > button:nth-child(2) { color: #eee; }
+.DropmenuN > .Droptitle > button:hover, .DropmenuN > .Droptitle > button:focus { background: #fff; }
+.DropmenuN > .Droptitle > button > i { color: inherit; right: 10px; top: 5px; cursor: pointer; }
+.DropmenuN > .Droptitle > button > .font { font-size: 22px; line-height: 17px; }
+.DropmenuN > .Droptitle > ul > li { padding: 5px 0px; font-size: 13px; color: #cccccc; text-align: left; text-indent: 12px; }
+.DropmenuN > .Droptitle > ul > li:hover { background: rgba(0,0,0,0.1); cursor: pointer; color: #333; }
+.DropmenuS > .Droptitle > button { display: inline-block; padding: 3px 0px; margin-bottom: 0; font-size: 12px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; float: left; background: inherit; color: #cccccc; }
+.DropmenuS > .Droptitle > button:hover, .DropmenuS > .Droptitle > button:focus { background: inherit; }
+.DropmenuS > .Droptitle > button:nth-child(1) { text-indent: 4px; }
+.DropmenuS > .Droptitle > button:nth-child(2) .font { font-size: 12px; }
+.DropmenuS > .Droptitle > ul { background: #fcfcfc; border-radius: 4px; border: 1px solid #ddd; }
+.DropmenuS > .Droptitle > ul > li { border-radius: 0px; color: #ccc; text-indent: 10px; font-size: 12px; }
+.DropmenuS > .Droptitle > ul > li:hover { color: #333; }
+/*无缝滚动*/
+.Wscroll::after { clear: both; }
+.Wscroll > div > ul { float: left; }
+.Wscroll > div > ul::after { clear: both; }
+.Wscroll > div > ul > li { margin-right: 10px; float: left; }
+.Hscroll > div > ul > li { height: 24px; line-height: 24px; margin-right: 0px; }
+/*分页*/
+.Paging { width: 600px; height: 40px; border-radius: 5px; line-height: 40px; margin: 0 auto; font-family: "Microsoft YaHei"; }
+.Paging::after { clear: both; }
+.Paging .pageLeft { border: 1px solid #eee; float: left; }
+.Paging .prev, .Paging .next, .Paging .first, .Paging .last { width: 58px; text-align: center; color: #dddddd; font-size: 14px; float: left; border-right: 1px solid #eee; cursor: pointer; }
+.Paging .last { border-right: 0px; }
+.Paging .btn { float: left; width: 39px; text-align: center; border-right: 1px solid #eee; cursor: pointer; font-size: 14px; color: #999; }
+.Paging .btn.active { background: #56acdf; color: #fff; }
+.Paging .btn2 { border: 1px solid #fff; color: #333; font-size: 14px; float: left; text-align: center; cursor: pointer; height: 24px; line-height: 24px; width: 24px; margin-left: 2px; margin-right: 2px; }
+.Paging .prev:hover, .Paging .next:hover, .Paging .first:hover, .Paging .last:hover, .Paging .btn:hover { background: #56acdf; color: #fff; transition: .2s all; }
+.Paging > .getAll { float: right; }
+.Paging > .getAll > div { float: left; color: #999; font-size: 12px; }
+.Paging > .getAll > input { width: 40px; height: 38px; border: 1px solid #56acdf; display: block; float: left; border-radius: 5px; margin-left: 10px; text-align: center; outline: 0px; }
+.Paging > .getAll > button { border: 0px; outline: 0; background: inherit; width: 60px; height: 40px; border: 1px solid #56acdf; display: block; float: left; border-radius: 5px; margin-left: 10px; cursor: pointer; }
+.Paging > .getAll > button:hover, .Paging > .getAll > button:active { background: #56acdf; color: #fff; }
+#send .Paging > .getAll > button { color: #999; }
+#send .Paging > .getAll > button:hover { color: #fff; }
+#send .Paging { margin-top: 20px; width: 100%; }
+#send .Paging .next { margin-left: 0px; }

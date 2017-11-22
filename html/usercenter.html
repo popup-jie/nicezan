@@ -1,0 +1,1005 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>超赞</title>
+    <link href="../css/include/wysiwyg-editor.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="../css/include/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/include/Bstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../css/include/jquery.Jcrop.css" rel="stylesheet" type="text/css" />
+    <link href="../css/module/home.css" rel="stylesheet" type="text/css" />
+    <link href="../css/module/usercenter.css" rel="stylesheet" type="text/css" />
+    <link href="../css/package/iconfont.css" rel="stylesheet" type="text/css" />
+    <link href="../css/include/jquery.Jcrop.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <script src="../script/package/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- 截图控件模块 -->
+    <script src="../script/package/jquery.Jcrop.js" type="text/javascript" charset="utf-8"></script>
+    <!-- //截图控件模块 -->
+    <script src="../script/package/plupload.full.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- 文本编辑器插件引用例子 -->
+    <script src="../script/package/demo.js" type="text/javascript" charset="utf-8"></script>
+    <!-- //文本编辑器插件引用例子 -->
+    <!-- 文本编辑器插件 -->
+    <script src="../script/package/wysiwyg-editor.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/package/wysiwyg.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/package/h5.js" type="text/javascript" charset="utf-8"></script>
+    <!-- //文本编辑器插件 -->
+    <!-- Bt框架引用 -->
+    <script src="../script/package/Btest.js" type="text/javascript"></script>
+    <!-- //Bt框架引用 -->
+    <!-- 后台区域模块-->
+    <script src="../script/BM/BT.Sl.Mysql.js" type="text/javascript"></script>
+    <!-- //后台区域模块-->
+    <!-- 用户区域模块-->
+    <script src="../script/BU/BU.load.js" type="text/javascript"></script>
+    <script src="../script/BU/BU.User.js" type="text/javascript"></script>
+    <!-- //用户区域模块-->
+    <!-- 功能区域模块-->
+    <script src="../script/BF/BF.load.js" type="text/javascript"></script>
+    <script src="../script/BF/BF.Fnx.js" type="text/javascript"></script>
+    <script src="../script/BF/BF.User.js" type="text/javascript"></script>
+    <!-- //功能区域模块-->
+    <!-- easy lemon system -->
+    <script src="../script/BL/BT.Lm.Syetem.js" type="text/javascript"></script>
+    <!-- 预加载事件处理模块 -->
+    <script src="../script/BS/BT.Us.Establish.js" type="text/javascript"></script>
+    <script src="../script/BJ/BT.Us.Jump.js" type="text/javascript"></script>
+    <script src="../script/BE/BE.load.js" type="text/javascript"></script>
+    <script src="../script/BE/BE.User.js" type="text/javascript"></script>
+    <script src="../script/BE/BE.Doc.js" type="text/javascript"></script>
+    <!-- //预加载事件处理模块 -->
+    <!-- 页面初始化 -->
+    <script src="../script/load/load.js" type="text/javascript"></script>
+    <!-- //页面初始化 -->
+</head>
+<body>
+    <div class="main histroy coll submission messages">
+        <div class="header">
+            <div class="cen wid">
+                <div class="logo fl">
+                    <a href="../index.html">
+                        <img src="../images/icons/logo.png" /></div>
+                </a>
+                <div class="Bignav fl">
+                    <div class="nav">
+                        <ul class="navUl">
+                            <li><a href="../index.html">首页</a></li>
+                            <li><a href="ChirdPage.html?page=life">生活</a></li>
+                            <li><a href="ChirdPage.html?page=resources">资源</a></li>
+                            <li><a href="ChirdPage.html?page=carry">搬运</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="loginbox fr hide">
+                    <div class="login fl">
+                        <a href="#">注册</a></div>
+                    <div class="logon fl">
+                        <a href="#" class="bgcolor">登录</a></div>
+                </div>
+                <div class="personal fr">
+                    <div class="searchbox fl">
+                        <div class="search-txt fl">
+                            <div class="screen fl">
+                                <div class="scr-first">
+                                    全部<i class="font scr-down-icon">&#xe604;</i>
+                                </div>
+                                <div class="scr-down">
+                                    <div class="scr-x">
+                                        全部</div>
+                                    <div class="scr-x">
+                                        生活</div>
+                                    <div class="scr-x">
+                                        资源</div>
+                                    <div class="scr-x">
+                                        搬运</div>
+                                </div>
+                            </div>
+                            <input type="text" class="fl" placeholder="搜索你喜欢的" />
+                        </div>
+                        <i class="font search fl">&#xe612;</i>
+                    </div>
+                    <div class="notice fl">
+                        <i class="font notice-icon">&#xe60e;</i>
+                        <div class="noticebox">
+                            <img src="../images/icons/san-icon.png" style="margin-top: -7px; margin-left: 140px;" />
+                            <div class="notice_top">
+                                <div class='on'>
+                                    动态</div>
+                                <div>
+                                    通知</div>
+                                <div class="active">
+                                </div>
+                            </div>
+                            <div class="clear">
+                            </div>
+                            <div class="notice-con">
+                                <ul>
+                                </ul>
+                                <ul>
+                                </ul>
+                            </div>
+                            <a class="notice-lostof" href="/html/usercenter.html?url=messages">查看更多</a>
+                        </div>
+                    </div>
+                    <div class="per-inf fl">
+                        <img src="../images/photo/pho1.png" class="user-photo" width="40" />
+                        <div class="perbox">
+                            <img src="../images/icons/san-icon.png" style="margin-top: -7px; margin-left: 91px;" />
+                            <div class="perinfbox">
+                                <div class="per-photo fl">
+                                    <img src="../images/photo/b-pho1.png" /></div>
+                                <div class="per-p-inf fl">
+                                    <p class="per-name">
+                                        无风自明月</p>
+                                    <i class="lemon">
+                                        <img src="../images/icons/lenmen.png" /></i>
+                                    <!-- <img src="../images/icons/level-3.png" class="pre-level fl"/> -->
+                                    <span class="per-level-name">152</span>
+                                </div>
+                            </div>
+                            <div class="perzan">
+                                <div class="per-tiao">
+                                    <div class="per-tiao-now fl">
+                                    </div>
+                                    <img src="../images/icons/level-3.png" class="pre-level fl" />
+                                </div>
+                            </div>
+                            <div class="per-setup">
+                                <ul class="setup-Ul">
+                                    <li><i class="font per-icon">&#xe601;</i><a href="#">个人中心</a></li>
+                                    <li><i class="font per-icon">&#xe606;</i><a href="#">账户中心</a></li>
+                                    <li><i class="font per-icon">&#xe607;</i><a href="#">收藏夹</a></li>
+                                    <li><i class="font per-icon">&#xe60b;</i><a href="#">退出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="cen wid">
+                <div class="mid-left user-left">
+                    <img src="../images/photo/zy-pho.png" width="120" height="120">
+                    <p>
+                        老司机12</p>
+                    <ul>
+                        <li class="on"><a href="#">
+                            <div class="bor">
+                            </div>
+                            <i class="numb"></i>账号 </a></li>
+                        <li><a href="#">
+                            <div class="bor">
+                            </div>
+                            <i class="book"></i>投稿 <span>3</span></a></li>
+                        <li><a href="#">
+                            <div class="bor">
+                            </div>
+                            <i class="call"></i>通知 <span>3</span></a></li>
+                        <li><a href="#">
+                            <div class="bor">
+                            </div>
+                            <i class="coll"></i>收藏 </a></li>
+                        <li><a href="#">
+                            <div class="bor">
+                            </div>
+                            <i class="lis"></i>历史 </a></li>
+                    </ul>
+                </div>
+                <div class="mid-right">
+                    <div class="myuser" style="padding-bottom: 30px" id="usercenter">
+                        <div class="m-header mr-header">
+                            <ul class="userdjclass">
+                                <li class="on" data-title="0"><a href="#">我的信息</a></li>
+                                <li data-title="1"><a href="#">账户安全</a></li>
+                                <li data-title="2"><a href="#">我的柠檬</a></li>
+                            </ul>
+                            <div class="cf">
+                            </div>
+                        </div>
+                        <div class="m-body mr-body">
+                            <ul class="userqhclass">
+                                <li class="mymess userqhclasslist" style="display: block;">
+                                    <dl>
+                                        <dd id="myeamil">
+                                            <div class="names">
+                                                登录邮箱：
+                                            </div>
+                                            <div class="contents c-text" style="color: #999">
+                                                <strong>759***508@qq.com</strong>
+                                            </div>
+                                            <div class="span">
+                                                注：注册邮箱不能修改</div>
+                                        </dd>
+                                        <dd id="nickname" class="lh">
+                                            <div class="names">
+                                                昵称：
+                                            </div>
+                                            <div class="contents">
+                                                <input type="text" placeholder="老司机一号" maxlength="5" onkeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+                                            </div>
+                                            <div class="span">
+                                                注：修改一次昵称需要消耗10个柠檬</div>
+                                        </dd>
+                                        <dd id="images">
+                                            <div class="names">
+                                                头像：
+                                            </div>
+                                            <div class="contents">
+                                                <img src="../images/photo/erwei.png" id="imaegss">
+                                                <a href="#" id="photoimg" class="photoimg">上传头像
+                                                    <!--<input type="file" style="z-index: -1; opacity: 0" name="photoimg" />-->
+                                                </a>
+                                            </div>
+                                            <div class="span" style="line-height: 40px">
+                                                注：请选择jpg,gif类图片上传、图片大小180x180像素</div>
+                                        </dd>
+                                        <dd id="adresss" class="lh">
+                                            <div class="names">
+                                                所在地：
+                                            </div>
+                                            <div class="contents" data-target="DropmenuN" style="width: 152px" id="usercenter_pros">
+                                                <div>
+                                                    <button>
+                                                        请选择省份</button>
+                                                    <!-- 下拉内容 -->
+                                                    <ul>
+                                                        <li>广东</li>
+                                                        <li>广西</li>
+                                                        <li>云南</li>
+                                                        <li>海南</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="contents" data-target="DropmenuN" style="width: 152px; margin-left: 10px"
+                                                id="usercenter_area">
+                                                <div>
+                                                    <button>
+                                                        请选择城市</button>
+                                                    <!-- 下拉内容 -->
+                                                    <ul>
+                                                        <li>深圳</li>
+                                                        <li>上海</li>
+                                                        <li>北京</li>
+                                                        <li>河源</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dd id="sex" class="lh">
+                                            <div class="names">
+                                                性别：
+                                            </div>
+                                            <div class="contents" data-target="DropmenuN" style="width: 152px">
+                                                <div>
+                                                    <button>
+                                                        男</button>
+                                                    <!-- 下拉内容 -->
+                                                    <ul>
+                                                        <li>男</li>
+                                                        <li>女</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                        <dd id="bir" class="lh">
+                                            <div class="names">
+                                                生日：
+                                            </div>
+                                            <div class="contents">
+                                                <input class="years" type="text" placeholder="年" maxlength="4" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+                                                <input class="months" type="text" placeholder="月" maxlength="2" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+                                                <input class="days" type="text" placeholder="日" maxlength="2" onkeyup='this.value=this.value.replace(/\D/gi,"")' />
+                                            </div>
+                                            <div class="span">
+                                                注：生日为保密</div>
+                                        </dd>
+                                        <dd id="autograph" class="lh">
+                                            <div class="names">
+                                                备注：
+                                            </div>
+                                            <div class="contents">
+                                                <textarea placeholder="红红火火恍恍惚惚含含糊糊"></textarea>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                    <div class="publishbox">
+                                        <div class="publish" style="margin-top: 20px; box-shadow: rgb(235, 203, 6) 0px 6px 0px;">
+                                            <div class="share-btn" id="Usercenter_Save">
+                                                <span>保存</span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="idsecurity userqhclasslist" style="display: none;">
+                                    <dl>
+                                        <dd id="myeamilx">
+                                            <div class="names">
+                                                登录邮箱：
+                                            </div>
+                                            <div class="contents c-text" style="color: #999">
+                                                <strong>759***508@qq.com</strong>
+                                            </div>
+                                            <div class="span">
+                                                注：注册邮箱不能修改</div>
+                                        </dd>
+                                        <dd id="passwords">
+                                            <div class="names">
+                                                密码：
+                                            </div>
+                                            <div class="contents c-text">
+                                                ******
+                                            </div>
+                                            <a href="#">修改密码</a>
+                                        </dd>
+                                        <dd id="thirdparty" class="lh">
+                                            <div class="names">
+                                                第三方绑定：
+                                            </div>
+                                            <div class="contents">
+                                                <div class="c-weibo c-child">
+                                                    <a href="#"><i class="icon iconfont"></i>点击绑定微博</a>
+                                                </div>
+                                                <div class="c-qq c-child">
+                                                    <a href="#"><i class="icon iconfont"></i> 点击绑定QQ </a>
+                                                </div>
+                                            </div>
+                                            <div class="span">
+                                                注：绑定第三方帐号可以快速登录、发现更多好友</div>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="mylemon userqhclasslist" style="display: none;">
+                                    <dl>
+                                        <dd id="mylemons" class="lh2">
+                                            <div class="names">
+                                                我的柠檬：
+                                            </div>
+                                            <div class="contents c-text" style="color: #999">
+                                                <span>193</span>
+                                            </div>
+                                            <div class="span">
+                                                <a href="#">柠檬有什么用/ 获得方式？</a></div>
+                                        </dd>
+                                        <dd id="records">
+                                            <div class="names">
+                                                记录：
+                                            </div>
+                                            <div class="contents c-table">
+                                                <div class="table-wrapper">
+                                                    <table class="table-normal log" id="currency_log">
+                                                        <thead>
+                                                            <tr>
+                                                                <td style="width: 36%">
+                                                                    <div>
+                                                                        时间</div>
+                                                                </td>
+                                                                <td style="width: 21%">
+                                                                    <div>
+                                                                        变化</div>
+                                                                </td>
+                                                                <td style="width: 43%">
+                                                                    <div>
+                                                                        原因</div>
+                                                                </td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <a href="#" class="coin-more">查看更多记录 &gt;</a>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                    <div class="what">
+                                        <div class="w-jt">
+                                        </div>
+                                        <div class="w-content">
+                                            <p class="tit1">
+                                                <strong>柠檬有什么用？</strong></p>
+                                            <p>
+                                                柠檬是nicezan世界中非常重要的物品</p>
+                                            <p>
+                                                柠檬可用于优秀作品进行购买<span>车票</span>和<span>打赏</span> 等，不解释、老司机要发车了！</p>
+                                            <p>
+                                                柠檬还可用于<span>修改昵称</span>、<span>购买标识</span>、<span>参与 活动等</span></p>
+                                            <p class="tit2">
+                                                <strong>如何获得柠檬？</strong></p>
+                                            <p>
+                                                每点击<span>站内广告</span>即有相应的柠檬奖励 每天登录后，将根据不同的会员等级发放 相应的<span>柠檬登录奖励</span></p>
+                                            <p>
+                                                UP主可通过<span>投稿作品</span>来获得<span>点赞</span>（单个 作品累计点赞10次将自动奖励一个柠檬）</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="myuser" style="padding-bottom: 90px; display: none" id="submission">
+                        <div class="m-header mr-header">
+                            <ul id="subudjlid" class="userdjclass">
+                                <li class="on" data-title="0"><a href="#">投稿管理 </a></li>
+                                <li data-title="1"><a href="#">投稿作品 </a></li>
+                            </ul>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="m-mid-button">
+                            <ul id="adm" class="m-mid-button_ul">
+                                <li class="data_list" data-target="DropmenuS" style="width: 72px">
+                                    <div>
+                                        <button>
+                                            状态筛选</button>
+                                        <!-- 下拉内容 -->
+                                        <ul>
+                                            <li>查看全部</li>
+                                            <li>审核中</li>
+                                            <li>未通过</li>
+                                            <li>已通过</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="data_list" data-target="DropmenuS" style="width: 72px">
+                                    <div>
+                                        <button>
+                                            分区筛选</button>
+                                        <!-- 下拉内容 -->
+                                        <ul>
+                                            <li>查看全部</li>
+                                            <li>生活</li>
+                                            <li>资源</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="data_list" data-target="DropmenuS" style="width: 72px">
+                                    <div>
+                                        <button>
+                                            投稿排序</button>
+                                        <!-- 下拉内容 -->
+                                        <ul>
+                                            <li>时间</li>
+                                            <li>点击次数</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="fr" id="getsearch">
+                                    <input type="text" placeholder="请输入搜索关键词" />
+                                    <div class="font search_icon">
+                                        &#xe612;</div>
+                                    <div class="clear">
+                                    </div>
+                                </li>
+                                <div class="cf">
+                                </div>
+                            </ul>
+                            <ul style="display: none" id="zp" class="m-mid-button_ul">
+                                <li class="on" data-title="0">资源投稿</li>
+                                <li data-title="1">生活投稿</li>
+                                <!--<li data-title="2">视频投稿</li>-->
+                                <div class="cf">
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="m-body mr-body">
+                            <div class="subulbox">
+                                <ul class="subul" style="display: block" id="adm2">
+                                    <li class="adm">
+                                        <dl id="admdl">
+                                        </dl>
+                                    </li>
+                                </ul>
+                                <ul class="subul" style="display: none;" id="zp2">
+                                    <li class="zp">
+                                        <dl class="res" style="display: block;">
+                                            <dd id="zy-img">
+                                                <div class="names" style="line-height: 100px;">
+                                                    封面图：
+                                                </div>
+                                                <div class="contents">
+                                                    <div class="ptheader">
+                                                        <img src="../images/icons/tgsc.png" id="ptheader_img" />
+                                                    </div>
+                                                    <div style="text-align: center; height: 24px; line-height: 24px; color: #fff; background: #666;
+                                                        cursor: pointer; display: none" id="ptheader_div">
+                                                        上传封面</div>
+                                                </div>
+                                                <div class="span" style="line-height: 25px; width: 350px; margin-top: 25px;">
+                                                    建议封面尺寸为480*300像素。<br />
+                                                    请勿使用与内容无关，或比例不为8:5的图片作为封面图片。</div>
+                                            </dd>
+                                            <dd class="lh" id="zy-title">
+                                                <div class="names">
+                                                    标题：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入标题" maxlength="30" />
+                                                    <span style="position: absolute; top: 10px; right: 10px;">0/30</span>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="zy-label">
+                                                <div class="names">
+                                                    标签：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入标签，半角逗号隔开" class='fl' />
+                                                    <div style="margin-left: 28px;" class='get2' id="contents_get2">
+                                                        <i class="font"></i></div>
+                                                    <div class="fl" style='color: #999; margin-top: 8px'>
+                                                        允许其他用户添加</div>
+                                                    <div class='clear'>
+                                                    </div>
+                                                    <div style="margin: 4px 0 0 4px; color: #ccc">
+                                                        请输入与内容相对应的标签，这样可以更好的查询到您的投稿</div>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="zy-ify">
+                                                <div class="names">
+                                                    分区：
+                                                </div>
+                                                <!-- <div class="contents" data-target="DropmenuN" style="width: 152px" id="types">
+                                                    <div>
+                                                        <button>
+                                                            请选择分类</button>
+                                                        下拉内容
+                                                        <ul>
+                                                            <li>生活</li>
+                                                            <li>资源</li>
+                                                            <li>搬运</li>
+                                                        </ul>
+                                                    </div>
+                                                </div> -->
+                                                <div class="contents" data-target="DropmenuN" style="width: 152px;" id="typesa">
+                                                    <div>
+                                                        <button>
+                                                            请选择种类</button>
+                                                        <!-- 下拉内容 -->
+                                                        <ul>
+                                                            <li>动画</li>
+                                                            <li>电视剧</li>
+                                                            <li>日剧</li>
+                                                            <li>电影</li>
+                                                            <li>纪录片</li>
+                                                            <li>生活</li>
+                                                            <li>娱乐</li>
+                                                            <li>游戏</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="zy-link">
+                                                <div class="names">
+                                                    资源链接：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入有效的链接，如百度云/磁力链接">
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="zy-code">
+                                                <div class="names">
+                                                    提取码：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入提取码" style="width: 150px;">
+                                                </div>
+                                                <div class="span">
+                                                    无提取码或为磁力链接可不填</div>
+                                            </dd>
+                                            <dd class="lh" id="zy-content">
+                                                <div class="names">
+                                                    正文：
+                                                </div>
+                                                <div class="contents" style="width: 600px">
+                                                    <textarea id="editor1" name="editor" placeholder="输入描述内容"></textarea>
+                                                </div>
+                                            </dd>
+                                            <div class="m-ts">
+                                                <img src="../images/icons/jintang.png" />
+                                                <p>
+                                                    为了避免投稿视频重复，投稿前请仔细搜索有无您想投稿的资源。</p>
+                                                <p>
+                                                    投稿内容禁止发布侵犯他人隐私；传播病毒；低俗内容等信息；恶意违反规定者将导致您的账号被封停。</p>
+                                            </div>
+                                            <div class="publishbox" id="InsertSubinfoOne">
+                                                <div class="publish" style="margin-top: 20px; box-shadow: rgb(235, 203, 6) 0px 6px 0px;">
+                                                    <div class="share-btn">
+                                                        <span>投稿</span></div>
+                                                </div>
+                                            </div>
+                                        </dl>
+                                        <dl class="life">
+                                            <dd id="li-img">
+                                                <div class="names" style="line-height: 100px;">
+                                                    封面图：
+                                                </div>
+                                                <div class="contents">
+                                                    <div class="ptheader">
+                                                        <img src="../images/icons/tgsc.png" id="li-img_img" />
+                                                    </div>
+                                                    <div style="text-align: center; height: 24px; line-height: 24px; color: #fff; background: #666;
+                                                        cursor: pointer; display: none" id="li-img_div">
+                                                        上传封面</div>
+                                                </div>
+                                                <div class="span" style="line-height: 25px; width: 350px; margin-top: 25px;">
+                                                    建议封面尺寸为480*300像素。<br />
+                                                    请勿使用与内容无关，或比例不为8:5的图片作为封面图片。</div>
+                                            </dd>
+                                            <dd class="lh" id="li-title">
+                                                <div class="names">
+                                                    标题：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入标题" maxlength="30" />
+                                                    <span style="position: absolute; top: 10px; right: 10px;">0/30</span>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="li-label">
+                                                <div class="names">
+                                                    标签：
+                                                </div>
+                                                <div class="contents">
+                                                    <input type="text" placeholder="请输入标签，半角逗号隔开" class='fl' />
+                                                    <div style="margin-left: 28px;" class='get2' id="contents_get3">
+                                                        <i class="font"></i></div>
+                                                    <div class="fl" style='color: #999; margin-top: 8px'>
+                                                        允许其他用户添加</div>
+                                                    <div class='clear'>
+                                                    </div>
+                                                    <div style="margin: 4px 0 0 4px; color: #ccc">
+                                                        请输入与内容相对应的标签，这样可以更好的查询到您的投稿</div>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="li-type">
+                                                <div class="names">
+                                                    分区：
+                                                </div>
+                                                <div class="contents" data-target="DropmenuN" style="width: 152px;">
+                                                    <div>
+                                                        <button>
+                                                            请选择种类</button>
+                                                        <!-- 下拉内容 -->
+                                                        <ul>
+                                                            <li>动画</li>
+                                                            <li>电视剧</li>
+                                                            <li>日剧</li>
+                                                            <li>电影</li>
+                                                            <li>纪录片</li>
+                                                            <li>生活</li>
+                                                            <li>娱乐</li>
+                                                            <li>游戏</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </dd>
+                                            <dd class="lh" id="li-content">
+                                                <div class="names">
+                                                    正文：
+                                                </div>
+                                                <div class="contents" style="width: 600px">
+                                                    <textarea id="editor2" name="editor" placeholder="输入描述内容"></textarea>
+                                                </div>
+                                            </dd>
+                                            <div class="m-ts">
+                                                <img src="../images/icons/jintang.png" />
+                                                <p>
+                                                    为了避免投稿视频重复，投稿前请仔细搜索有无您想投稿的资源。</p>
+                                                <p>
+                                                    投稿内容禁止发布侵犯他人隐私；传播病毒；低俗内容等信息；恶意违反规定者将导致您的账号被封停。</p>
+                                            </div>
+                                            <div class="publishbox" id="li-button">
+                                                <div class="publish" style="margin-top: 20px; box-shadow: rgb(235, 203, 6) 0px 6px 0px;">
+                                                    <div class="share-btn">
+                                                        <span>投稿</span></div>
+                                                </div>
+                                            </div>
+                                        </dl>
+                                        <!--   <dl class="carry" style="display: none;">
+                                            <div class="one" style="display: block">
+                                                <a class="act" href="#">①填写视频源 </a><a class="noact" href="#">②补充视频信息</a>
+                                                <div class="inputboxt" id="view-link">
+                                                    <input type="text" placeholder="请输入视频地址" />
+                                                    <button>
+                                                        下一步</button>
+                                                </div>
+                                                <div class="two-ts">
+                                                    <p>
+                                                        目前支持：腾讯 / 优酷 / 土豆/ B 站，不支持其它视频站。
+                                                    </p>
+                                                    <p>
+                                                        视频地址示例:</p>
+                                                    <p>
+                                                        腾讯: http://v.qq.com/cover/*/***************.html</p>
+                                                    <p>
+                                                        优酷: http://v.youku.com/v_show/**************.html
+                                                    </p>
+                                                    <p>
+                                                        土豆: http://www.tudou.com/programs/view/***********/
+                                                    </p>
+                                                    <p>
+                                                        B 站: http://www.bilibili.com/video/av********/
+                                                    </p>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="two" style="display: none;">
+                                                <a class="noact" href="#" style="background-position: 0 -35px; color: #ccc">①填写视频源
+                                                </a><a class="act" href="#" style="background-position: -140px -35px; color: #fff">②补充视频信息</a>
+                                                <dd id="fma">
+                                                    <div class="names" style="line-height: 100px;">
+                                                        封面图：
+                                                    </div>
+                                                    <div class="contents">
+                                                        <div class="ptheader">
+                                                            <img src="../images/icons/tgsc.png" id="view-img" />
+                                                        </div>
+                                                        <div style="text-align: center; height: 24px; line-height: 24px; color: #fff; background: #666;
+                                                            cursor: pointer; display: none" id="ptheader_div2">
+                                                            上传封面</div>
+                                                    </div>
+                                                    <div class="span" style="line-height: 25px; width: 350px; margin-top: 25px;">
+                                                        建议封面尺寸为480*270像素。<br />
+                                                        请勿使用与内容无关，或分辨率不为16:9的图片作为封面图片。</div>
+                                                </dd>
+                                                <dd id="tita" class="lh">
+                                                    <div class="names">
+                                                        标题：
+                                                    </div>
+                                                    <div class="contents">
+                                                        <input type="text" placeholder="请输入标题" />
+                                                        <span style="position: absolute; top: 10px; right: 10px;">0/30</span>
+                                                    </div>
+                                                </dd>
+                                                <dd id="labela" class="lh c-label">
+                                                    <div class="names">
+                                                        标签：
+                                                    </div>
+                                                    <div class="contents">
+                                                        <input type="text" placeholder="请输入标签，半角逗号隔开" />
+                                                        <span style="color: #999; margin-left: 28px;">
+                                                            <img src="../images/icons/yes.png" style="vertical-align: middle; margin-right: 5px;">允许其他用户添加</span>
+                                                    </div>
+                                                </dd>
+                                                <dd id="fla" class="lh">
+                                                    <div class="names">
+                                                        分类：
+                                                    </div>
+                                                    <!--   <div class="contents" data-target="DropmenuN" style="width: 152px" id="flass">
+                                                        <div>
+                                                            <button>
+                                                                请选择分区</button>
+                                                           下拉内容
+                                                            <ul>
+                                                                <li>生活</li>
+                                                                <li>资源</li>
+                                                                <li>视频</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                        <div class="contents" data-target="DropmenuN" style="width: 152px" id="flasa">
+                                            <div>
+                                                <button>
+                                                    请选择种类</button>
+                                                <!-- 下拉内容 
+                                                <ul>
+                                                    <li>动画</li>
+                                                    <li>电视剧</li>
+                                                    <li>日剧</li>
+                                                    <li>电影</li>
+                                                    <li>纪录片</li>
+                                                    <li>生活</li>
+                                                    <li>娱乐</li>
+                                                    <li>游戏</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        </dd>
+                                        <dd id="jj" class="lh">
+                                            <div class="names">
+                                                正文：
+                                            </div>
+                                            <div class="contents">
+                                                <textarea style="width: 400px;" placeholder="请输入视频简介"></textarea>
+                                            </div>
+                                        </dd>
+                                        <div class="m-ts">
+                                            <img src="../images/icons/jintang.png" />
+                                            <p>
+                                                为了避免投稿视频重复，投稿前请仔细搜索有无您想投稿的资源。</p>
+                                            <p>
+                                                投稿内容禁止发布侵犯他人隐私；传播病毒；低俗内容等信息；恶意违反规定者将导致您的账号被封停。</p>
+                                        </div>
+                                        <div class="publishbox" id="InsertSubinfotwo">
+                                            <div class="publish" style="margin-top: 20px; box-shadow: rgb(235, 203, 6) 0px 6px 0px;">
+                                                <div class="share-btn">
+                                                    <span>投稿</span></div>
+                                            </div>
+                                        </div>
+                            </div>
+                            </dl> -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myuser" style="padding-bottom: 90px; display: none" id="messages">
+                        <div class="m-header mr-header">
+                            <ul class="userdjclass">
+                                <li class="on" data-title="0"><a href="#">我的消息</a></li>
+                                <li data-title="1"><a href="#">我的动态</a></li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="m-mid-button">
+                            <ul>
+                                <li class="on" data-title="0">全部</li>
+                                <li data-title="1">回复我的</li>
+                                <li data-title="2">系统通知</li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                            <ul style="display: none">
+                                <li class="on" data-title="0">全部</li>
+                                <li data-title="1">收藏我的</li>
+                                <li data-title="2">收藏的赞</li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="m-mid-content">
+                            <ul id="m-mid-content_div1">
+                                <!--<div id='m-mid-content_div1'>
+                                    <ul class='receptPeo'>
+                                    </ul>
+                                    <ul class='deletesend'>
+                                    </ul>
+                                </div>-->
+                            </ul>
+                            <ul style="display: none" id="m-mid-content_div2">
+                                <!-- <ul class='messagesZan'>
+                                </ul>
+                                <ul class='messagesColl'>
+                                </ul>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="myuser" id="coll" style="display: none; padding-bottom: 30px">
+                        <div class="m-header mr-header">
+                            <ul id="userdjid" class="userdjclass">
+                                <li class="on"><a href="#">收藏夹 </a></li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                        </div>
+                        <ul class="m-mid-button">
+                            <li class="on" data-title="0">全部<a>(0)</a></li>
+                            <li data-title="1">生活<a>(0)</a></li>
+                            <li data-title="2">资源<a>(0)</a></li>
+                            <li data-title="3">搬运<a>(0)</a></li>
+                            <li class="fr" id="getsearch">
+                                <input type="text" placeholder="请输入搜索关键词" />
+                                <div class="font search_icon">
+                                    &#xe612;</div>
+                                <div class="clear">
+                                </div>
+                            </li>
+                            <li class="fr" id="getShow">
+                                <div>
+                                    已选择<a>0</a>个收藏</div>
+                                <button id="getdel">
+                                    删除</button>
+                                <button id="getFalse">
+                                    取消选择</button>
+                            </li>
+                            <div class="clear">
+                            </div>
+                        </ul>
+                        <div class="m-mid-content">
+                            <div class="page_sub_box" id="page_sub_box">
+                                <div class="hot-box" style="display: block">
+                                    <div class="clear">
+                                    </div>
+                                </div>
+                                <div class="hot-box" style="display: none">
+                                </div>
+                                <div class="hot-box" style="display: none">
+                                </div>
+                                <div class="hot-box" style="display: none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myuser" id="histroy" style="display: none">
+                        <div class="m-header mr-header">
+                            <ul id="Ul1" class="userdjclass">
+                                <li class="on"><a href="#">历史记录</a></li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                        </div>
+                        <ul class="m-mid-button">
+                            <li class="on">浏览记录</li>
+                            <li>车票记录</li>
+                            <div class="clear">
+                            </div>
+                        </ul>
+                        <div class="m-mid-content">
+                        </div>
+                        <!-- 车票连接框 -->
+                        <div class="triK">
+                            <div class="triK_title">
+                                车票链接</div>
+                            <div class="trik_title_content">
+                                <input type="text" value="http://pan.baidu.com/s/aaq" />
+                                <a id="copy" href="javascript:void(0)">复制</a>
+                            </div>
+                            <div class="triK_title">
+                                提取码</div>
+                            <div class="trik_tile_code">
+                                <input type="text" value="me2y" />
+                            </div>
+                            <a href="#">链接失效？</a><a href="#">密码错误？</a><a href="#">内容有误？</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-1">
+            <div class="wid cen">
+                <div class="flogo">
+                    <img src="../images/icons/flogo.png" class="fl" /></div>
+                <ul class="font-Ul">
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                    <li><a href="#">免责声明</a></li>
+                </ul>
+                <ul class="lian-Ul">
+                    <li class="lian-1"><i class="font font-weibo">&#xe603;</i></li>
+                    <li class="lian-2"><i class="font font-weixin">&#xe61b;</i></li>
+                    <li class="lian-3"><i class="font font-tieba">
+                        <img src="../images/icons/tie-icon.png" /></i></li>
+                    <li class="lian-4"><i class="font font-kong">&#xe61a;</i></li>
+                </ul>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="wid cen">
+                <span class="fl">本站不提供任何上传下载服务，所有内容均来自视频分享站点所提供的公开引用资源</span> <span class="fr">Copyright
+                    © 2016 NiceZan 保留所有权利</span>
+            </div>
+        </div>
+    </div>
+    <!-- 修改密码块 -->
+    <div class='changePASS'>
+        <div class='changePASS-Top'>
+            <input type="password" placeholder="新密码" />
+            <input type="password" placeholder="确认密码" />
+        </div>
+        <div class='changePASS-Bottom'>
+            <button id='sumbit'>
+                确定</button>
+            <button id='close'>
+                取消</button>
+            <div class='clear'>
+            </div>
+        </div>
+    </div>
+    <div class="iconfont scrollTop " id="scrollTop">
+        &#xe61c;
+    </div>
+    <div class="iconfont scrollTop" style="bottom: 149px; border-radius: 0 0 5px 5px">
+        <a href="/html/feedback.html">意见<br />
+            反馈 </a>
+    </div>
+</body>
+</html>
